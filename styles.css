@@ -16,3 +16,8 @@ body {
   height: 522px;
   background-color: #ffffff;
 }
+
+.illustration {
+  display: block;
+  margin: 24px auto;
+}
