@@ -1,3 +1,18 @@
+html,
 body {
   background-color: #f4d04e;
+  height: 99vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99vh;
+}
+
+.card {
+  width: 384px;
+  height: 522px;
+  background-color: #ffffff;
 }
