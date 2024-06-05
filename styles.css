@@ -19,6 +19,7 @@ body {
   width: 384px;
   height: 522px;
   background-color: #ffffff;
+  border-radius: 20px;
 }
 
 .content {
@@ -63,4 +64,8 @@ body {
   vertical-align: middle;
   font-weight: bold;
   margin-left: 10px;
+}
+
+.illustration {
+  border-radius: 10px;
 }
