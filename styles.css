@@ -2,6 +2,10 @@ html,
 body {
   background-color: #f4d04e;
   height: 99vh;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 0;
 }
 
 .container {
@@ -17,7 +21,46 @@ body {
   background-color: #ffffff;
 }
 
-.illustration {
+.content {
   display: block;
-  margin: 24px auto;
+  margin: 24px;
+}
+
+.status {
+  background-color: #f4d04e;
+  padding: 4px 12px;
+  font-weight: bold;
+  font-size: 14px;
+  flex-shrink: 3;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.text-content > * {
+  margin: 3px 0px;
+}
+
+.description {
+  color: #7f7f7f;
+}
+
+.profile-picture {
+  width: 32px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.author {
+  margin-top: 22px;
+}
+
+.author-name {
+  vertical-align: middle;
+  font-weight: bold;
+  margin-left: 10px;
 }
